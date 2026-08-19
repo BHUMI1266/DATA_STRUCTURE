@@ -1,13 +1,8 @@
 #include<stdio.h>
 
-
 int priority(char ch)   // check the priority
 {
-	//if(ch=='(' || ch==')')
-		//return 3;
-	
-	
-	
+
 	if(ch=='*' || ch=='/')
 		return 2;
 	else if(ch=='+' || ch=='-')
